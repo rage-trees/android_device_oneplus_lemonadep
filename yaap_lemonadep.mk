@@ -33,3 +33,14 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=OnePlus9Pro \
     SystemDevice=OnePlus9Pro \
     SystemName=OnePlus9Pro
+
+# Stuff
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 3216
+TARGET_SCREEN_WIDTH := 1440
